@@ -1,0 +1,1131 @@
+DEBUG - 2025-10-31 13:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 13:52:19 --> ParseError: Unclosed '{' on line 15 does not match ')'
+[Method: GET, Route: login]
+in APPPATH\Controllers\Auth.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\testing\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 13:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:36:25 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: owner]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:pemilik', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:36:58 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: owner]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:pemilik', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:41:28 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: owner]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:pemilik', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:44:45 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: employee/attendance]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:karyawan', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:44:52 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: employee/leaves]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:karyawan', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:45:07 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: employee/leaves]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:karyawan', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:45:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 14:45:10 --> CodeIgniter\Filters\Exceptions\FilterException: "role" filter must have a matching alias defined.
+[Method: GET, Route: employee/attendance]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('role')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('role:karyawan', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 14:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 14:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 15:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 16:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 16:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 16:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 17:25:52 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(93): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->attendanceCheckIn()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 17:25:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: employee/attendance/check-in]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(93): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceCheckIn()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:25:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:25:52\', NULL, \'2025-10-31 17:25:52\', \'2025-10-31 17:25:52\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:25:52\', NULL, \'2025-10-31 17:25:52\', \'2025-10-31 17:25:52\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(93): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceCheckIn()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:25:52 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:25:52\', NULL, \'2025-10-31 17:25:52\', \'2025-10-31 17:25:52\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:25:52\', NULL, \'2025-10-31 17:25:52\', \'2025-10-31 17:25:52\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:25:52\', NULL, \'2025-10-31 17:25:52\', \'2025-10-31 17:25:52\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(93): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceCheckIn()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 17:27:20 --> ErrorException: Undefined variable $todayRow
+[Method: GET, Route: employee/attendance]
+in APPPATH\Views\employee\attendance\index.php on line 17.
+ 1 APPPATH\Views\employee\attendance\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todayRow', 'C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('employee/attendance/index', [], true)
+ 5 APPPATH\Controllers\employee.php(40): view('employee/attendance/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendance()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 17:36:10 --> ErrorException: Undefined variable $todayRow
+[Method: GET, Route: employee/attendance]
+in APPPATH\Views\employee\attendance\index.php on line 24.
+ 1 APPPATH\Views\employee\attendance\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todayRow', 'C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('employee/attendance/index', [], true)
+ 5 APPPATH\Controllers\employee.php(42): view('employee/attendance/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 17:37:43 --> ErrorException: Undefined variable $todayRow
+[Method: GET, Route: employee/attendance]
+in APPPATH\Views\employee\attendance\index.php on line 24.
+ 1 APPPATH\Views\employee\attendance\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todayRow', 'C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('employee/attendance/index', [], true)
+ 5 APPPATH\Controllers\employee.php(42): view('employee/attendance/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 17:37:58 --> ErrorException: Undefined variable $todayRow
+[Method: GET, Route: employee/attendance]
+in APPPATH\Views\employee\attendance\index.php on line 24.
+ 1 APPPATH\Views\employee\attendance\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todayRow', 'C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('employee/attendance/index', [], true)
+ 5 APPPATH\Controllers\employee.php(42): view('employee/attendance/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-10-31 17:38:31 --> ErrorException: Undefined variable $todayRow
+[Method: GET, Route: employee/attendance]
+in APPPATH\Views\employee\attendance\index.php on line 24.
+ 1 APPPATH\Views\employee\attendance\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todayRow', 'C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\testing\\app\\Views\\employee\\attendance\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('employee/attendance/index', [], true)
+ 5 APPPATH\Controllers\employee.php(42): view('employee/attendance/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->attendanceIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 17:49:47 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 17:49:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: employee/attendance/checkin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:49:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:47\', NULL, \'2025-10-31 17:49:47\', \'2025-10-31 17:49:47\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:47\', NULL, \'2025-10-31 17:49:47\', \'2025-10-31 17:49:47\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:49:47 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:47\', NULL, \'2025-10-31 17:49:47\', \'2025-10-31 17:49:47\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:47\', NULL, \'2025-10-31 17:49:47\', \'2025-10-31 17:49:47\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:47\', NULL, \'2025-10-31 17:49:47\', \'2025-10-31 17:49:47\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 17:49:57 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 17:49:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: employee/attendance/checkin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:49:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:57\', NULL, \'2025-10-31 17:49:57\', \'2025-10-31 17:49:57\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:57\', NULL, \'2025-10-31 17:49:57\', \'2025-10-31 17:49:57\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:49:57 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:57\', NULL, \'2025-10-31 17:49:57\', \'2025-10-31 17:49:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:57\', NULL, \'2025-10-31 17:49:57\', \'2025-10-31 17:49:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:49:57\', NULL, \'2025-10-31 17:49:57\', \'2025-10-31 17:49:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 17:50:44 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ab...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ab...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ab...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ab...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 17:50:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: employee/attendance/checkin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:50:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:50:44\', NULL, \'2025-10-31 17:50:44\', \'2025-10-31 17:50:44\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:50:44\', NULL, \'2025-10-31 17:50:44\', \'2025-10-31 17:50:44\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 17:50:44 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:50:44\', NULL, \'2025-10-31 17:50:44\', \'2025-10-31 17:50:44\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:50:44\', NULL, \'2025-10-31 17:50:44\', \'2025-10-31 17:50:44\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (\'17\', \'2025-10-31\', \'17:50:44\', NULL, \'2025-10-31 17:50:44\', \'2025-10-31 17:50:44\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `absensi` (`karyawan_id`, `tanggal`, `waktu_masuk`, `waktu_keluar`, `created_at`, `updated_at`) VALUES (:karyawan_id:, :tanggal:, :waktu_masuk:, :waktu_keluar:, :created_at:, :updated_at:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(102): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->checkIn()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 17:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 17:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:28:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:33:44 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:33:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'catatan' in 'field list'
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:33:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'catatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-04\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-04\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:33:44 --> [Caused by] mysqli_sql_exception: Unknown column 'catatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-04\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-04\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-04\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 18:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:34:03 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:34:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'catatan' in 'field list'
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:34:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'catatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-15\', \'\', \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-15\', \'\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:34:03 --> [Caused by] mysqli_sql_exception: Unknown column 'catatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-15\', \'\', \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-15\', \'\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-15\', \'\', \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 18:34:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:34:23 --> mysqli_sql_exception: Unknown column 'catatan' in 'field list' in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:34:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'catatan' in 'field list'
+[Method: POST, Route: employee/leaves/cuti]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:34:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'catatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:34:23 --> [Caused by] mysqli_sql_exception: Unknown column 'catatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 18:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:36:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:36:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/cuti]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:36:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:36:17 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'cuti\', \'2025-11-07\', \'2025-11-18\', NULL, \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(424): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 18:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:40:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:40:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:40:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:40:07 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 18:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:44:03 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:44:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:44:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:44:03 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 18:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 18:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 18:52:27 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 18:52:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:52:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 18:52:27 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-08\', \'2025-11-15\', \'sakitttt\', \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 19:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 19:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 19:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-10-31 19:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-10-31 19:01:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-10-31 19:01:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 19:01:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-01\', \'2025-11-08\', \'saa\', \'menunggu\', \'2025-10-31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-01\', \'2025-11-08\', \'saa\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-10-31 19:01:52 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-01\', \'2025-11-08\', \'saa\', \'menunggu\', \'2025-10-31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-01\', \'2025-11-08\', \'saa\', \'menunggu\', \'2025-10-31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-01\', \'2025-11-08\', \'saa\', \'menunggu\', \'2025-10-31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-10-31 19:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

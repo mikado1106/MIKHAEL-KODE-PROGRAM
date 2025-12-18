@@ -1,0 +1,1942 @@
+DEBUG - 2025-11-13 04:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 04:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 04:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 04:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 04:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 04:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 06:21:27 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::countByStatus
+[Method: GET, Route: owner/reports]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(523): CodeIgniter\Model->__call('countByStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->reports()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 06:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 06:21:42 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::countByStatus
+[Method: GET, Route: owner/reports]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(523): CodeIgniter\Model->__call('countByStatus', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->reports()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 06:21:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 06:23:19 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 06:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 06:23:34 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 06:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 06:23:52 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 06:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 06:25:03 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 06:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 06:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 07:32:44 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 07:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 07:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 08:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 08:54:35 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 08:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 17:31:23 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\IzinModel::getPaged
+[Method: GET, Route: owner/izin]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(420): CodeIgniter\Model->__call('getPaged', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->izinIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-13 17:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 17:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 18:34:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2 in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n  SELECT 'izi...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT 'izi...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT 'izi...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\app\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT 'izi...')
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\View\View.php(226): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(38): view('dashboard/owner', Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->index()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-13 18:34:28 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+[Method: GET, Route: owner]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 18:34:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 3 APPPATH\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 7 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 18:34:28 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 4 APPPATH\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 8 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 18:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 18:35:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2 in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n  SELECT 'izi...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT 'izi...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT 'izi...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\app\Views\dashboard\owner.php(52): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT 'izi...')
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\View\View.php(226): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(38): view('dashboard/owner', Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->index()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-13 18:35:18 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+[Method: GET, Route: owner]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Views\dashboard\owner.php(52): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 18:35:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 3 APPPATH\Views\dashboard\owner.php(52): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 7 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 18:35:18 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 4 APPPATH\Views\dashboard\owner.php(52): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 8 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 18:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 18:36:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2 in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n  SELECT 'izi...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT 'izi...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT 'izi...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\app\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT 'izi...')
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\View\View.php(226): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(38): view('dashboard/owner', Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->index()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-13 18:36:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+[Method: GET, Route: owner]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 18:36:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 3 APPPATH\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 7 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 18:36:30 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UNION ALL
+  SELECT 'cuti' AS tipe, id, status, tgl_pengajuan AS tgl FROM cut...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 4 APPPATH\Views\dashboard\owner.php(50): CodeIgniter\Database\BaseConnection->query('
+  SELECT \'izin\' AS tipe, id, status, tgl_pengajuan AS tgl FROM izin ORDER BY id DESC LIMIT 3
+  UNION ALL
+  SELECT \'cuti\' AS tipe, id, status, tgl_pengajuan AS tgl FROM cuti ORDER BY id DESC LIMIT 3
+')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 8 APPPATH\Controllers\owner.php(38): view('dashboard/owner', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 18:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 18:47:33 --> CodeIgniter\Validation\Exceptions\ValidationException: "check_end_after" is not a valid rule.
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('check_end_after')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('tgl_selesai', 'tgl_selesai', '2025-11-16', [...], [...], 'tgl_selesai')
+ 3 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\employee.php(75): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izinStore()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 18:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 18:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:03:44 --> ErrorException: Undefined variable $rekapUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 41.
+ 1 APPPATH\Views\dashboard\owner.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rekapUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(50): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:06:17 --> ErrorException: Undefined variable $rekapUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 41.
+ 1 APPPATH\Views\dashboard\owner.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rekapUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(50): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:23:17 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:27:37 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 17.
+ 1 APPPATH\Views\dashboard\employee.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:27:54 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 17.
+ 1 APPPATH\Views\dashboard\employee.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:27:57 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 17.
+ 1 APPPATH\Views\dashboard\employee.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:28:03 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 22.
+ 1 APPPATH\Views\dashboard\employee.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:28:54 --> ErrorException: Undefined variable $r
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:29:52 --> ErrorException: Undefined variable $today
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 16.
+ 1 APPPATH\Views\dashboard\employee.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $today', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:30:08 --> ErrorException: Undefined variable $statusHari
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 30.
+ 1 APPPATH\Views\dashboard\employee.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $statusHari', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:30:20 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:33:42 --> ErrorException: Undefined variable $r
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:34:25 --> ErrorException: Undefined variable $r
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:34:34 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:37:10 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:37:32 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:40:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:40:24 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:40:41 --> ErrorException: Undefined variable $izinUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 117.
+ 1 APPPATH\Views\dashboard\owner.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $izinUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(108): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:41:20 --> ErrorException: Undefined variable $izinUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 117.
+ 1 APPPATH\Views\dashboard\owner.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $izinUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(108): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:42:09 --> ErrorException: Undefined variable $cutiUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 118.
+ 1 APPPATH\Views\dashboard\owner.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cutiUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(108): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:42:34 --> ErrorException: Undefined variable $izinUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 117.
+ 1 APPPATH\Views\dashboard\owner.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $izinUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(116): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:42:37 --> ErrorException: Undefined variable $izinUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 117.
+ 1 APPPATH\Views\dashboard\owner.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $izinUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(116): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:42:54 --> ErrorException: Undefined variable $cutiUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 118.
+ 1 APPPATH\Views\dashboard\owner.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cutiUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(116): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:43:01 --> ErrorException: Undefined variable $cutiUrl
+[Method: GET, Route: owner]
+in APPPATH\Views\dashboard\owner.php on line 118.
+ 1 APPPATH\Views\dashboard\owner.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cutiUrl', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php', 118)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\owner.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/owner', [], true)
+ 5 APPPATH\Controllers\owner.php(116): view('dashboard/owner', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:47:54 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 19:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:53:03 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:55:27 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:57:05 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:57:08 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 19:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 19:58:50 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:05:32 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 24.
+ 1 APPPATH\Views\dashboard\employee.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:13:07 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:19:07 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:19:48 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:19:59 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:20:04 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:20:56 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:20:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:20:59 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 20:31:26 --> ErrorException: Undefined variable $me
+[Method: GET, Route: employee]
+in APPPATH\Views\dashboard\employee.php on line 15.
+ 1 APPPATH\Views\dashboard\employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $me', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\dashboard\\employee.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('dashboard/employee', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(16): view('dashboard/employee', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->employee()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 20:56:34 --> mysqli_sql_exception: Table 'hr_skripsi.pengajuan_keluar' doesn't exist in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-11-13 20:56:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'hr_skripsi.pengajuan_keluar' doesn't exist
+[Method: GET, Route: owner/exits]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = ?
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 20:56:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'hr_skripsi.pengajuan_keluar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 3 APPPATH\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = ?
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 20:56:34 --> [Caused by] mysqli_sql_exception: Table 'hr_skripsi.pengajuan_keluar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 4 APPPATH\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = ?
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 20:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 20:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 20:57:02 --> mysqli_sql_exception: Table 'hr_skripsi.pengajuan_keluar' doesn't exist in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...', Array)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2025-11-13 20:57:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'hr_skripsi.pengajuan_keluar' doesn't exist
+[Method: GET, Route: owner/exits]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = ?
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 20:57:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'hr_skripsi.pengajuan_keluar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 3 APPPATH\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = ?
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 20:57:02 --> [Caused by] mysqli_sql_exception: Table 'hr_skripsi.pengajuan_keluar' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = \'menunggu\'
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ')
+ 4 APPPATH\Controllers\owner.php(1189): CodeIgniter\Database\BaseConnection->query('
+        SELECT pk.id, pk.tipe, pk.status, pk.tanggal_pengajuan, pk.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pengajuan_keluar pk
+        JOIN karyawan k ON k.id = pk.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        WHERE pk.status = ?
+        ORDER BY pk.status=\'menunggu\' DESC, pk.tanggal_pengajuan DESC, pk.id DESC
+    ', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->exitsIndex()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 21:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 21:01:05 --> ErrorException: Undefined array key "tipe"
+[Method: GET, Route: owner/resign]
+in APPPATH\Views\owner\exits\index.php on line 65.
+ 1 APPPATH\Views\owner\exits\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\owner\\exits\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\owner\\exits\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/exits/index', [], true)
+ 5 APPPATH\Controllers\owner.php(1178): view('owner/exits/index', [...])
+ 6 APPPATH\Controllers\owner.php(1262): App\Controllers\Owner->_exitsIndexUsing('pengunduran_diri', 'resign')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->resignIndex()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 21:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-13 21:04:07 --> ErrorException: Undefined array key "tipe"
+[Method: GET, Route: owner/resign]
+in APPPATH\Views\owner\exits\index.php on line 65.
+ 1 APPPATH\Views\owner\exits\index.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\owner\\exits\\index.php', 65)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Views\\owner\\exits\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/exits/index', [], true)
+ 5 APPPATH\Controllers\owner.php(1181): view('owner/exits/index', [...])
+ 6 APPPATH\Controllers\owner.php(1262): App\Controllers\Owner->_exitsIndexUsing('pengunduran_diri', 'resign')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->resignIndex()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 21:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-13 21:04:10 --> mysqli_sql_exception: Unknown column 'pd.tanggal_pengajuan' in 'field list' in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n        SELEC...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        SELEC...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        SELEC...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1170): CodeIgniter\Database\BaseConnection->query('\r\n        SELEC...')
+#4 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1280): App\Controllers\Owner->_exitsIndexUsing('pensiun', 'pensiun')
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->pensiunIndex()
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#7 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-13 21:04:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.tanggal_pengajuan' in 'field list'
+[Method: GET, Route: owner/pensiun]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 APPPATH\Controllers\owner.php(1170): CodeIgniter\Database\BaseConnection->query('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 2 APPPATH\Controllers\owner.php(1280): App\Controllers\Owner->_exitsIndexUsing('pensiun', 'pensiun')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->pensiunIndex()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 21:04:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pd.tanggal_pengajuan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 3 APPPATH\Controllers\owner.php(1170): CodeIgniter\Database\BaseConnection->query('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 4 APPPATH\Controllers\owner.php(1280): App\Controllers\Owner->_exitsIndexUsing('pensiun', 'pensiun')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->pensiunIndex()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-13 21:04:10 --> [Caused by] mysqli_sql_exception: Unknown column 'pd.tanggal_pengajuan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 4 APPPATH\Controllers\owner.php(1170): CodeIgniter\Database\BaseConnection->query('
+        SELECT pd.id, pd.status, 
+               COALESCE(pd.tanggal_pengajuan, DATE(pd.created_at)) AS tgl_pengajuan,
+               pd.tanggal_efektif,
+               u.name AS nama, u.email, k.jabatan
+        FROM pensiun pd
+        JOIN karyawan k ON k.id = pd.karyawan_id
+        JOIN users u    ON u.id = k.user_id
+        ORDER BY pd.status=\'menunggu\' DESC, tgl_pengajuan DESC, pd.id DESC
+    ')
+ 5 APPPATH\Controllers\owner.php(1280): App\Controllers\Owner->_exitsIndexUsing('pensiun', 'pensiun')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->pensiunIndex()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-13 21:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-13 21:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

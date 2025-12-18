@@ -1,0 +1,732 @@
+DEBUG - 2025-11-16 12:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 12:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 13:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 15:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 15:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 15:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 15:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 15:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-16 15:04:01 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\Candidate.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Candidate->save()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-16 15:04:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: karir]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (:email:, :posisi:, :cv_path:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 15:04:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (\'asdada@fesdfds\', NULL, \'uploads/cv/1763305441_5139d5c07c7c03f4594d.pdf\', \'baru\', \'2025-11-16 15:04:01\', \'2025-11-16 15:04:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (\'asdada@fesdfds\', NULL, \'uploads/cv/1763305441_5139d5c07c7c03f4594d.pdf\', \'baru\', \'2025-11-16 15:04:01\', \'2025-11-16 15:04:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (:email:, :posisi:, :cv_path:, :status:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 15:04:01 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (\'asdada@fesdfds\', NULL, \'uploads/cv/1763305441_5139d5c07c7c03f4594d.pdf\', \'baru\', \'2025-11-16 15:04:01\', \'2025-11-16 15:04:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (\'asdada@fesdfds\', NULL, \'uploads/cv/1763305441_5139d5c07c7c03f4594d.pdf\', \'baru\', \'2025-11-16 15:04:01\', \'2025-11-16 15:04:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (\'asdada@fesdfds\', NULL, \'uploads/cv/1763305441_5139d5c07c7c03f4594d.pdf\', \'baru\', \'2025-11-16 15:04:01\', \'2025-11-16 15:04:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`email`, `posisi`, `cv_path`, `status`, `created_at`, `updated_at`) VALUES (:email:, :posisi:, :cv_path:, :status:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 17:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-16 17:35:50 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\Candidate.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Candidate->save()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-16 17:35:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+[Method: POST, Route: karir]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 17:35:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314550_e9256af99276a33f5779.pdf\', \'baru\', NULL, \'2025-11-16 17:35:50\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314550_e9256af99276a33f5779.pdf\', \'baru\', NULL, \'2025-11-16 17:35:50\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 17:35:50 --> [Caused by] mysqli_sql_exception: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314550_e9256af99276a33f5779.pdf\', \'baru\', NULL, \'2025-11-16 17:35:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314550_e9256af99276a33f5779.pdf\', \'baru\', NULL, \'2025-11-16 17:35:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314550_e9256af99276a33f5779.pdf\', \'baru\', NULL, \'2025-11-16 17:35:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 17:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-16 17:36:09 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\Candidate.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Candidate->save()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-16 17:36:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+[Method: POST, Route: karir]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 17:36:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314569_c53317a90c8eb2badddc.pdf\', \'baru\', NULL, \'2025-11-16 17:36:09\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314569_c53317a90c8eb2badddc.pdf\', \'baru\', NULL, \'2025-11-16 17:36:09\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 17:36:09 --> [Caused by] mysqli_sql_exception: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314569_c53317a90c8eb2badddc.pdf\', \'baru\', NULL, \'2025-11-16 17:36:09\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314569_c53317a90c8eb2badddc.pdf\', \'baru\', NULL, \'2025-11-16 17:36:09\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'asdada@fesdfds\', NULL, NULL, \'uploads/cv/1763314569_c53317a90c8eb2badddc.pdf\', \'baru\', NULL, \'2025-11-16 17:36:09\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Candidate.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 17:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 17:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 17:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 17:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 17:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 17:40:24 --> ErrorException: Undefined variable $rules
+[Method: POST, Route: karir]
+in APPPATH\Controllers\Candidate.php on line 22.
+ 1 APPPATH\Controllers\Candidate.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\Candidate.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 17:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-16 17:40:42 --> mysqli_sql_exception: Column 'nama' cannot be null in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ca...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ca...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ca...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ca...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\Candidate.php(42): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Candidate->save()
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-11-16 17:40:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+[Method: POST, Route: karir]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Candidate.php(42): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 17:40:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'testing@gmail.com\', NULL, NULL, \'uploads/cv/1763314842_88a3cd167f0154cfdde2.pdf\', \'baru\', NULL, \'2025-11-16 17:40:42\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'testing@gmail.com\', NULL, NULL, \'uploads/cv/1763314842_88a3cd167f0154cfdde2.pdf\', \'baru\', NULL, \'2025-11-16 17:40:42\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Candidate.php(42): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 17:40:42 --> [Caused by] mysqli_sql_exception: Column 'nama' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'testing@gmail.com\', NULL, NULL, \'uploads/cv/1763314842_88a3cd167f0154cfdde2.pdf\', \'baru\', NULL, \'2025-11-16 17:40:42\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'testing@gmail.com\', NULL, NULL, \'uploads/cv/1763314842_88a3cd167f0154cfdde2.pdf\', \'baru\', NULL, \'2025-11-16 17:40:42\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (NULL, \'testing@gmail.com\', NULL, NULL, \'uploads/cv/1763314842_88a3cd167f0154cfdde2.pdf\', \'baru\', NULL, \'2025-11-16 17:40:42\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `calon_karyawan` (`nama`, `email`, `no_hp`, `posisi`, `cv_path`, `status`, `jadwal_interview`, `created_at`) VALUES (:nama:, :email:, :no_hp:, :posisi:, :cv_path:, :status:, :jadwal_interview:, :created_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Candidate.php(42): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Candidate->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Candidate))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 17:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 17:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 17:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 18:45:00 --> ErrorException: Undefined array key "nama_lengkap"
+[Method: GET, Route: owner/calon-karyawan/2/promote]
+in APPPATH\Controllers\owner.php on line 1361.
+ 1 APPPATH\Controllers\owner.php(1361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lengkap"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1361)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 18:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 18:45:35 --> Error: Call to undefined function App\Controllers\random_string()
+[Method: GET, Route: owner/calon-karyawan/2/promote]
+in APPPATH\Controllers\owner.php on line 1372.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 18:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 18:46:21 --> ErrorException: Undefined property: App\Controllers\Owner::$calonModel
+[Method: GET, Route: owner/calon-karyawan/2/promote]
+in APPPATH\Controllers\owner.php on line 1351.
+ 1 APPPATH\Controllers\owner.php(1351): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Owner::$calonModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1351)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 18:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 18:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 18:49:04 --> Error: Call to a member function find() on null
+[Method: GET, Route: owner/calon-karyawan/2/promote]
+in APPPATH\Controllers\owner.php on line 1355.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 19:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-16 19:20:21 --> mysqli_sql_exception: Duplicate entry 'testing@gmail.com' for key 'email' in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1369): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-11-16 19:20:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`karyawan`, CONSTRAINT `karyawan_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1377): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+DEBUG - 2025-11-16 19:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-16 19:22:01 --> mysqli_sql_exception: Duplicate entry 'testing@gmail.com' for key 'email' in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1369): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+ERROR - 2025-11-16 19:22:01 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`karyawan`, CONSTRAINT `karyawan_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\aplikasi-skripsi\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ka...', 0)
+#1 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ka...')
+#2 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ka...')
+#3 C:\xampp\htdocs\aplikasi-skripsi\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ka...', Array, false)
+#4 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\aplikasi-skripsi\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\aplikasi-skripsi\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\aplikasi-skripsi\app\Controllers\owner.php(1377): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('2')
+#9 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+#10 C:\xampp\htdocs\aplikasi-skripsi\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\aplikasi-skripsi\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\aplikasi-skripsi\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\aplikasi-skripsi\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+DEBUG - 2025-11-16 19:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 19:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:14:32 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in APPPATH\Controllers\owner.php on line 1371.
+ 1 APPPATH\Controllers\owner.php(1371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:15:00 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in APPPATH\Controllers\owner.php on line 1371.
+ 1 APPPATH\Controllers\owner.php(1371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:15:29 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::withGroup
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(1375): CodeIgniter\Model->__call('withGroup', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:16:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::withGroup
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(1375): CodeIgniter\Model->__call('withGroup', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:16:19 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in APPPATH\Controllers\owner.php on line 1371.
+ 1 APPPATH\Controllers\owner.php(1371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:16:28 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in APPPATH\Controllers\owner.php on line 1371.
+ 1 APPPATH\Controllers\owner.php(1371): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1371)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:16:36 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::withGroup
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in SYSTEMPATH\Model.php on line 927.
+ 1 APPPATH\Controllers\owner.php(1375): CodeIgniter\Model->__call('withGroup', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:17:19 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: owner/calon-karyawan]
+in APPPATH\Config\Routes.php on line 22.
+ 1 APPPATH\Config\Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 22)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:17:52 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: owner/employees]
+in APPPATH\Config\Routes.php on line 125.
+ 1 APPPATH\Config\Routes.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 125)
+ 2 SYSTEMPATH\Router\RouteCollection.php(799): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(100): CodeIgniter\Router\RouteCollection->group('employee', [...], Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:18:05 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: owner/employees]
+in APPPATH\Config\Routes.php on line 22.
+ 1 APPPATH\Config\Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 22)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:26:52 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: owner]
+in APPPATH\Config\Routes.php on line 22.
+ 1 APPPATH\Config\Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 22)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:26:55 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: login]
+in APPPATH\Config\Routes.php on line 22.
+ 1 APPPATH\Config\Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 22)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:26:56 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: karir]
+in APPPATH\Config\Routes.php on line 22.
+ 1 APPPATH\Config\Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 22)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+CRITICAL - 2025-11-16 20:27:00 --> ErrorException: Undefined variable $userModel
+[Method: GET, Route: owner/employees/27/edit]
+in APPPATH\Config\Routes.php on line 22.
+ 1 APPPATH\Config\Routes.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php', 22)
+ 2 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:27:31 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in APPPATH\Controllers\owner.php on line 1366.
+ 1 APPPATH\Controllers\owner.php(1366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1366)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-16 20:27:46 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: owner/calon-karyawan/5/promote]
+in APPPATH\Controllers\owner.php on line 1366.
+ 1 APPPATH\Controllers\owner.php(1366): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\aplikasi-skripsi\\app\\Controllers\\owner.php', 1366)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner->promoteCalon('5')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\aplikasi-skripsi\\public\\index.php')
+DEBUG - 2025-11-16 20:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-16 20:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

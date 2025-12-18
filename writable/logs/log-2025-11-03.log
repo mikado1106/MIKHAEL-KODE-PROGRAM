@@ -1,0 +1,396 @@
+DEBUG - 2025-11-03 13:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-03 13:04:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-03 13:04:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 13:04:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-03\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-03\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 13:04:10 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-03\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-11-03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-03\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-03\', \'2025-11-06\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(404): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-03 13:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:36:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-03 20:36:24 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-03 20:36:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 20:36:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 20:36:24 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-03 13:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-03 13:41:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-03 13:41:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 13:41:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 13:41:17 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-03 13:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 13:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-03 14:38:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-03 14:38:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 14:38:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 14:38:51 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (5, \'sakit\', \'2025-11-07\', \'2025-11-08\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-03 14:41:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 14:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-03 14:41:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `iz...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `iz...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `iz...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `iz...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->izin()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-03 14:41:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 14:41:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-04\', \'2025-11-05\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-04\', \'2025-11-05\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 14:41:51 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`izin`, CONSTRAINT `izin_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-04\', \'2025-11-05\', \'test\', \'menunggu\', \'2025-11-03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-04\', \'2025-11-05\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'sakit\', \'2025-11-04\', \'2025-11-05\', \'test\', \'menunggu\', \'2025-11-03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `izin` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(405): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->izin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-03 18:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-03 18:15:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\testing\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `cu...', 0)
+#1 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\xampp\htdocs\testing\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\xampp\htdocs\testing\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\xampp\htdocs\testing\app\Controllers\employee.php(425): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\testing\system\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+#6 C:\xampp\htdocs\testing\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\testing\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\testing\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\testing\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\testing\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\testing\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-11-03 18:15:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+[Method: POST, Route: employee/leaves/cuti]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 2 APPPATH\Controllers\employee.php(425): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 18:15:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'cuti\', \'2025-11-04\', \'2025-11-05\', NULL, \'menunggu\', \'2025-11-03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'cuti\', \'2025-11-04\', \'2025-11-05\', NULL, \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 4 APPPATH\Controllers\employee.php(425): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+CRITICAL - 2025-11-03 18:15:30 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hr_skripsi`.`cuti`, CONSTRAINT `cuti_ibfk_1` FOREIGN KEY (`karyawan_id`) REFERENCES `karyawan` (`id`) ON DELETE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'cuti\', \'2025-11-04\', \'2025-11-05\', NULL, \'menunggu\', \'2025-11-03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'cuti\', \'2025-11-04\', \'2025-11-05\', NULL, \'menunggu\', \'2025-11-03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (21, \'cuti\', \'2025-11-04\', \'2025-11-05\', NULL, \'menunggu\', \'2025-11-03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cuti` (`karyawan_id`, `jenis`, `tgl_mulai`, `tgl_selesai`, `catatan`, `status`, `tgl_pengajuan`) VALUES (:karyawan_id:, :jenis:, :tgl_mulai:, :tgl_selesai:, :catatan:, :status:, :tgl_pengajuan:)', [...], false)
+ 5 APPPATH\Controllers\employee.php(425): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Employee->cuti()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\testing\\public\\index.php')
+DEBUG - 2025-11-03 18:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-03 18:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
